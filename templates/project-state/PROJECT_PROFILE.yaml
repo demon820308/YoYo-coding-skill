@@ -1,0 +1,35 @@
+# 仅记录已确认的项目事实；未知使用 unknown，不猜测。
+profile_version: 2
+project:
+  name: ""
+  purpose: ""
+  lifecycle_stage: "unknown" # prototype | active | maintenance | sunset
+  primary_mode: "unknown" # NEW_PROJECT | PROJECT_TAKEOVER | SECONDARY_DEVELOPMENT | REFACTORING | MAINTENANCE | MIGRATION
+  secondary_modes: []
+  risk_level: "unknown" # R0 | R1 | R2 | R3
+  critical_data: unknown
+  production_environment: unknown
+technology:
+  languages: []
+  frameworks: []
+  package_managers: []
+  databases: []
+  deployment: []
+commands:
+  install: "unknown"
+  build: "unknown"
+  test: "unknown"
+  lint: "unknown"
+  typecheck: "unknown"
+  run: "unknown"
+governance:
+  required_checks: []
+  prohibited_operations: []
+  approval_required_for:
+    - destructive_data_changes
+    - production_changes
+    - irreversible_migrations
+    - credential_or_permission_changes
+  rollback_strategy: "unknown"
+  specifications: [] # 记录规范名称、版本、adopted/partial/N/A 和原因
+  notes: []
